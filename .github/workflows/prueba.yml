@@ -1,0 +1,20 @@
+name: PRUEBA_GITHUB_ACTIONS
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  primer_actions:
+    runs-on: self-hosted
+    steps:
+      - name: Inicio de la automatizacion
+        run: echo "Se sincroniza el repositorio"
+        
+      - name: Instacion de la libreria
+        run: echo "Instacion de la libreria"
+
+      - name: Despligue listo
+        run: echo "Despligue listo :)"
