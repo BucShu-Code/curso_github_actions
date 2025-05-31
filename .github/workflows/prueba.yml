@@ -7,14 +7,15 @@ on:
     branches: [ "main" ]
 
 jobs:
-  primer_actions:
+  despliegue_en_servidor:
     runs-on: self-hosted
+
     steps:
-      - name: Inicio de la automatizacion
+      - name: Sincronización del repositorio
         run: echo "Se sincroniza el repositorio"
-        
-      - name: Instacion de la libreria
+
+      - name: Instalación de dependencias
         run: echo "Instacion de la libreria"
 
-      - name: Despligue listo
+      - name: Despliegue finalizado
         run: echo "Despligue listo :)"
