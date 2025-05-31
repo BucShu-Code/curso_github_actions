@@ -8,7 +8,7 @@ on:
 
 jobs:
   primer_actions:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Inicio de la automatización
         run: echo "Se sincroniza el repositorio"
